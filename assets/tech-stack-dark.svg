@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 110" width="880" height="110" role="img" aria-label="Tech Stack: Android, Kotlin, Java, Python, Bash, Linux, Git, C/C++">
+  <title>Tech Stack</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B1026"/><stop offset="1" stop-color="#060914"/>
+    </linearGradient>
+    <clipPath id="c"><rect width="880" height="110" rx="20"/></clipPath>
+  </defs>
+  <g clip-path="url(#c)">
+    <rect width="880" height="110" fill="url(#bg)"/>
+    <line x1="4.0" y1="55" x2="876.0" y2="55" stroke="#0284C7" stroke-opacity=".15" stroke-width="1" stroke-dasharray="3 5"/>
+    <g transform="translate(14.0, 24)">
+      <rect width="96" height="62" rx="14" fill="#111827" stroke="#3DDC84" stroke-opacity=".35" stroke-width="1.2"/>
+      <circle cx="16" cy="22" r="4.5" fill="#3DDC84"/>
+      <text x="28" y="26" font-size="13" font-weight="700" fill="#E6EDF3" font-family="'SF Pro Display','Segoe UI',sans-serif">Android</text>
+      <text x="16" y="47" font-size="10.5" font-weight="600" fill="#94A3B8" font-family="'SF Pro Display','Segoe UI',sans-serif">Framework</text>
+    </g>
+    <g transform="translate(122.0, 24)">
+      <rect width="96" height="62" rx="14" fill="#111827" stroke="#7F52FF" stroke-opacity=".35" stroke-width="1.2"/>
+      <circle cx="16" cy="22" r="4.5" fill="#7F52FF"/>
+      <text x="28" y="26" font-size="13" font-weight="700" fill="#E6EDF3" font-family="'SF Pro Display','Segoe UI',sans-serif">Kotlin</text>
+      <text x="16" y="47" font-size="10.5" font-weight="600" fill="#94A3B8" font-family="'SF Pro Display','Segoe UI',sans-serif">Apps</text>
+    </g>
+    <g transform="translate(230.0, 24)">
+      <rect width="96" height="62" rx="14" fill="#111827" stroke="#F89820" stroke-opacity=".35" stroke-width="1.2"/>
+      <circle cx="16" cy="22" r="4.5" fill="#F89820"/>
+      <text x="28" y="26" font-size="13" font-weight="700" fill="#E6EDF3" font-family="'SF Pro Display','Segoe UI',sans-serif">Java</text>
+      <text x="16" y="47" font-size="10.5" font-weight="600" fill="#94A3B8" font-family="'SF Pro Display','Segoe UI',sans-serif">AOSP</text>
+    </g>
+    <g transform="translate(338.0, 24)">
+      <rect width="96" height="62" rx="14" fill="#111827" stroke="#38BDF8" stroke-opacity=".35" stroke-width="1.2"/>
+      <circle cx="16" cy="22" r="4.5" fill="#38BDF8"/>
+      <text x="28" y="26" font-size="13" font-weight="700" fill="#E6EDF3" font-family="'SF Pro Display','Segoe UI',sans-serif">Python</text>
+      <text x="16" y="47" font-size="10.5" font-weight="600" fill="#94A3B8" font-family="'SF Pro Display','Segoe UI',sans-serif">Automation</text>
+    </g>
+    <g transform="translate(446.0, 24)">
+      <rect width="96" height="62" rx="14" fill="#111827" stroke="#4EAA25" stroke-opacity=".35" stroke-width="1.2"/>
+      <circle cx="16" cy="22" r="4.5" fill="#4EAA25"/>
+      <text x="28" y="26" font-size="13" font-weight="700" fill="#E6EDF3" font-family="'SF Pro Display','Segoe UI',sans-serif">Bash</text>
+      <text x="16" y="47" font-size="10.5" font-weight="600" fill="#94A3B8" font-family="'SF Pro Display','Segoe UI',sans-serif">Shell</text>
+    </g>
+    <g transform="translate(554.0, 24)">
+      <rect width="96" height="62" rx="14" fill="#111827" stroke="#FBBF24" stroke-opacity=".35" stroke-width="1.2"/>
+      <circle cx="16" cy="22" r="4.5" fill="#FBBF24"/>
+      <text x="28" y="26" font-size="13" font-weight="700" fill="#E6EDF3" font-family="'SF Pro Display','Segoe UI',sans-serif">Linux</text>
+      <text x="16" y="47" font-size="10.5" font-weight="600" fill="#94A3B8" font-family="'SF Pro Display','Segoe UI',sans-serif">Kernel</text>
+    </g>
+    <g transform="translate(662.0, 24)">
+      <rect width="96" height="62" rx="14" fill="#111827" stroke="#F05032" stroke-opacity=".35" stroke-width="1.2"/>
+      <circle cx="16" cy="22" r="4.5" fill="#F05032"/>
+      <text x="28" y="26" font-size="13" font-weight="700" fill="#E6EDF3" font-family="'SF Pro Display','Segoe UI',sans-serif">Git</text>
+      <text x="16" y="47" font-size="10.5" font-weight="600" fill="#94A3B8" font-family="'SF Pro Display','Segoe UI',sans-serif">VCS</text>
+    </g>
+    <g transform="translate(770.0, 24)">
+      <rect width="96" height="62" rx="14" fill="#111827" stroke="#0284C7" stroke-opacity=".35" stroke-width="1.2"/>
+      <circle cx="16" cy="22" r="4.5" fill="#0284C7"/>
+      <text x="28" y="26" font-size="13" font-weight="700" fill="#E6EDF3" font-family="'SF Pro Display','Segoe UI',sans-serif">C / C++</text>
+      <text x="16" y="47" font-size="10.5" font-weight="600" fill="#94A3B8" font-family="'SF Pro Display','Segoe UI',sans-serif">Native</text>
+    </g>
+
+  </g>
+  <rect x=".75" y=".75" width="878.5" height="108.5" rx="19.25" fill="none" stroke="#1E2A4A" stroke-width="1.5"/>
+</svg>

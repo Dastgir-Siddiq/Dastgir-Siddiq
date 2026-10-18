@@ -1,30 +1,36 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 150" width="400" height="150" role="img" aria-label="OrangeFox Recovery: Custom recovery maintainer, device bring-up, and kernel optimization for Galaxy Tab and Realme.">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 165" width="420" height="165" role="img" aria-label="OrangeFox Recovery: Custom recovery builds for Galaxy Tab A7 and Realme 12 Pro+ with kernel bring-up.">
   <title>OrangeFox Recovery</title>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#f4f6ff"/></linearGradient>
-    <radialGradient id="gl" cx="1" cy="0" r=".9"><stop offset="0" stop-color="#be185d" stop-opacity=".18"/><stop offset="1" stop-color="#be185d" stop-opacity="0"/></radialGradient>
-    <clipPath id="c"><rect width="400" height="150" rx="16"/></clipPath>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#F8FAFC"/></linearGradient>
+    <radialGradient id="gl" cx="1" cy="0" r=".9">
+      <stop offset="0" stop-color="#C2410C" stop-opacity=".2"/>
+      <stop offset="1" stop-color="#C2410C" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="c"><rect width="420" height="165" rx="18"/></clipPath>
   </defs>
   <style>
-    .t{font-family:"SF Pro Display","Segoe UI Variable Display","Segoe UI","Inter","Helvetica Neue",Arial,system-ui,sans-serif;font-weight:700;font-size:21px;fill:#1f2340}
-    .d{font-family:"SF Pro Display","Segoe UI Variable Display","Segoe UI","Inter","Helvetica Neue",Arial,system-ui,sans-serif;font-size:15px;fill:#4b5563}
-    .halo{fill:none;stroke:#be185d;stroke-width:1.5;opacity:0;transform-box:fill-box;transform-origin:center;animation:halo 3.6s ease-out -1.8s infinite}
+    .t{font-family:"SF Pro Display","Segoe UI Variable Display","Segoe UI","Inter",sans-serif;font-weight:700;font-size:21px;fill:#1E293B}
+    .d{font-family:"SF Pro Display","Segoe UI Variable Display","Segoe UI","Inter",sans-serif;font-size:14px;fill:#475569}
+    .halo{fill:none;stroke:#C2410C;stroke-width:1.5;opacity:0;transform-box:fill-box;transform-origin:center;animation:halo 3.6s ease-out -1.2s infinite}
     @keyframes halo{0%{transform:scale(1);opacity:.55}100%{transform:scale(1.9);opacity:0}}
-    @media (prefers-reduced-motion:reduce){*{animation:none!important}}
+    @media(prefers-reduced-motion:reduce){*{animation:none!important}}
   </style>
   <g clip-path="url(#c)">
-    <rect width="400" height="150" fill="url(#bg)"/>
-    <rect width="400" height="150" fill="url(#gl)"/>
-    <circle class="halo" cx="48" cy="48" r="24"/>
-    <rect x="24" y="24" width="48" height="48" rx="14" fill="#be185d" fill-opacity=".12" stroke="#be185d" stroke-opacity=".4" stroke-width="1.5"/>
-    <g transform="translate(34.2 34.2) scale(1.15)" fill="none" stroke="#be185d" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round">
-      <path d="M12 3 21 8 12 13 3 8Z"/>
-      <path d="M3 12l9 5 9-5"/>
-      <path d="M3 16l9 5 9-5"/>
-    </g>
-    <text class="t" x="88" y="55">OrangeFox Recovery</text>
-    <text class="d" x="24" y="107">Custom recovery maintainer, device bring-up,</text>
-    <text class="d" x="24" y="129">and kernel optimization for Galaxy Tab &amp; Realme.</text>
+    <rect width="420" height="165" fill="url(#bg)"/>
+    <rect width="420" height="165" fill="url(#gl)"/>
+    <circle class="halo" cx="48" cy="45" r="24"/>
+    <rect x="24" y="21" width="48" height="48" rx="14" fill="#C2410C" fill-opacity=".12" stroke="#C2410C" stroke-opacity=".4" stroke-width="1.5"/>
+    <g transform="translate(36 33) scale(1.0)" fill="none" stroke="#C2410C" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 21 8 12 13 3 8Z"/><path d="M3 12l9 5 9-5"/><path d="M3 16l9 5 9-5"/></g>
+    <text class="t" x="86" y="52">OrangeFox Recovery</text>
+    <text class="d" x="24" y="93">Custom recovery builds for Galaxy Tab A7</text>
+    <text class="d" x="24" y="112">and Realme 12 Pro+ with kernel bring-up.</text>
+    <rect x="24" y="128" width="38.5" height="22" rx="11" fill="#F1F5F9" stroke="#C2410C" stroke-opacity=".3" stroke-width="1"/>
+    <text x="43.25" y="143" font-size="11" font-weight="600" fill="#475569" font-family="'SF Pro Display','Segoe UI',sans-serif" text-anchor="middle">C++</text>
+    <rect x="70.5" y="128" width="98.5" height="22" rx="11" fill="#F1F5F9" stroke="#C2410C" stroke-opacity=".3" stroke-width="1"/>
+    <text x="119.75" y="143" font-size="11" font-weight="600" fill="#475569" font-family="'SF Pro Display','Segoe UI',sans-serif" text-anchor="middle">Device Tree</text>
+    <rect x="177.0" y="128" width="83.5" height="22" rx="11" fill="#F1F5F9" stroke="#C2410C" stroke-opacity=".3" stroke-width="1"/>
+    <text x="218.75" y="143" font-size="11" font-weight="600" fill="#475569" font-family="'SF Pro Display','Segoe UI',sans-serif" text-anchor="middle">TWRP/OFOX</text>
+
   </g>
-  <rect x=".75" y=".75" width="398.5" height="148.5" rx="15.5" fill="none" stroke="#d5dbea" stroke-width="1.5"/>
+  <rect x=".75" y=".75" width="418.5" height="163.5" rx="17.25" fill="none" stroke="#CBD5E1" stroke-width="1.5"/>
 </svg>

@@ -1,30 +1,36 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 150" width="400" height="150" role="img" aria-label="ROM &amp; Framework Modding: Android framework patcher, signature bypass, and custom ROM optimization utilities.">
-  <title>ROM &amp; Framework Modding</title>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 165" width="420" height="165" role="img" aria-label="ROM &amp; Frameworks: Android framework patcher, core signature bypass &amp; multidex optimization suite.">
+  <title>ROM &amp; Frameworks</title>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#f4f6ff"/></linearGradient>
-    <radialGradient id="gl" cx="1" cy="0" r=".9"><stop offset="0" stop-color="#059669" stop-opacity=".18"/><stop offset="1" stop-color="#059669" stop-opacity="0"/></radialGradient>
-    <clipPath id="c"><rect width="400" height="150" rx="16"/></clipPath>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#F8FAFC"/></linearGradient>
+    <radialGradient id="gl" cx="1" cy="0" r=".9">
+      <stop offset="0" stop-color="#059669" stop-opacity=".2"/>
+      <stop offset="1" stop-color="#059669" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="c"><rect width="420" height="165" rx="18"/></clipPath>
   </defs>
   <style>
-    .t{font-family:"SF Pro Display","Segoe UI Variable Display","Segoe UI","Inter","Helvetica Neue",Arial,system-ui,sans-serif;font-weight:700;font-size:20px;fill:#1f2340}
-    .d{font-family:"SF Pro Display","Segoe UI Variable Display","Segoe UI","Inter","Helvetica Neue",Arial,system-ui,sans-serif;font-size:15px;fill:#4b5563}
-    .halo{fill:none;stroke:#059669;stroke-width:1.5;opacity:0;transform-box:fill-box;transform-origin:center;animation:halo 3.6s ease-out -2.7s infinite}
+    .t{font-family:"SF Pro Display","Segoe UI Variable Display","Segoe UI","Inter",sans-serif;font-weight:700;font-size:21px;fill:#1E293B}
+    .d{font-family:"SF Pro Display","Segoe UI Variable Display","Segoe UI","Inter",sans-serif;font-size:14px;fill:#475569}
+    .halo{fill:none;stroke:#059669;stroke-width:1.5;opacity:0;transform-box:fill-box;transform-origin:center;animation:halo 3.6s ease-out -1.8s infinite}
     @keyframes halo{0%{transform:scale(1);opacity:.55}100%{transform:scale(1.9);opacity:0}}
-    @media (prefers-reduced-motion:reduce){*{animation:none!important}}
+    @media(prefers-reduced-motion:reduce){*{animation:none!important}}
   </style>
   <g clip-path="url(#c)">
-    <rect width="400" height="150" fill="url(#bg)"/>
-    <rect width="400" height="150" fill="url(#gl)"/>
-    <circle class="halo" cx="48" cy="48" r="24"/>
-    <rect x="24" y="24" width="48" height="48" rx="14" fill="#059669" fill-opacity=".12" stroke="#059669" stroke-opacity=".4" stroke-width="1.5"/>
-    <g transform="translate(36 36) scale(1.0)" fill="none" stroke="#059669" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round">
-      <rect x="4" y="4" width="16" height="16" rx="2"/>
-      <rect x="9" y="9" width="6" height="6" rx="1"/>
-      <path d="M9 1v3M15 1v3M9 20v3M15 20v3M1 9h3M1 15h3M20 9h3M20 15h3"/>
-    </g>
-    <text class="t" x="88" y="55">ROM &amp; Frameworks</text>
-    <text class="d" x="24" y="107">Android framework patcher, signature bypass,</text>
-    <text class="d" x="24" y="129">and custom ROM optimization utilities.</text>
+    <rect width="420" height="165" fill="url(#bg)"/>
+    <rect width="420" height="165" fill="url(#gl)"/>
+    <circle class="halo" cx="48" cy="45" r="24"/>
+    <rect x="24" y="21" width="48" height="48" rx="14" fill="#059669" fill-opacity=".12" stroke="#059669" stroke-opacity=".4" stroke-width="1.5"/>
+    <g transform="translate(36 33) scale(1.0)" fill="none" stroke="#059669" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="2"/><rect x="9" y="9" width="6" height="6" rx="1"/><path d="M9 1v3M15 1v3M9 20v3M15 20v3M1 9h3M1 15h3M20 9h3M20 15h3"/></g>
+    <text class="t" x="86" y="52">ROM &amp; Frameworks</text>
+    <text class="d" x="24" y="93">Android framework patcher, core signature</text>
+    <text class="d" x="24" y="112">bypass &amp; multidex optimization suite.</text>
+    <rect x="24" y="128" width="98.5" height="22" rx="11" fill="#F1F5F9" stroke="#059669" stroke-opacity=".3" stroke-width="1"/>
+    <text x="73.25" y="143" font-size="11" font-weight="600" fill="#475569" font-family="'SF Pro Display','Segoe UI',sans-serif" text-anchor="middle">Smali / DEX</text>
+    <rect x="130.5" y="128" width="46.0" height="22" rx="11" fill="#F1F5F9" stroke="#059669" stroke-opacity=".3" stroke-width="1"/>
+    <text x="153.5" y="143" font-size="11" font-weight="600" fill="#475569" font-family="'SF Pro Display','Segoe UI',sans-serif" text-anchor="middle">AOSP</text>
+    <rect x="184.5" y="128" width="83.5" height="22" rx="11" fill="#F1F5F9" stroke="#059669" stroke-opacity=".3" stroke-width="1"/>
+    <text x="226.25" y="143" font-size="11" font-weight="600" fill="#475569" font-family="'SF Pro Display','Segoe UI',sans-serif" text-anchor="middle">LineageOS</text>
+
   </g>
-  <rect x=".75" y=".75" width="398.5" height="148.5" rx="15.5" fill="none" stroke="#d5dbea" stroke-width="1.5"/>
+  <rect x=".75" y=".75" width="418.5" height="163.5" rx="17.25" fill="none" stroke="#CBD5E1" stroke-width="1.5"/>
 </svg>

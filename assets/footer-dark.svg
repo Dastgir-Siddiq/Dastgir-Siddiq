@@ -1,19 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 124" width="1000" height="124" role="img" aria-label="Animated heartbeat line">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 124" width="1000" height="124" role="img" aria-label="Animated heartbeat pulse line: thanks for stopping by">
   <title>Thanks for stopping by</title>
   <defs>
-    <linearGradient id="g" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="1000" y2="0">
-      <stop offset="0" stop-color="#8BE9FD"/><stop offset=".5" stop-color="#BD93F9"/><stop offset="1" stop-color="#FF79C6"/>
-    </linearGradient>
+    <linearGradient id="g" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="1000" y2="0"><stop offset="0" stop-color="#FCD34D"/><stop offset=".5" stop-color="#F472B6"/><stop offset="1" stop-color="#A78BFA"/></linearGradient>
     <filter id="blur" x="-10%" y="-60%" width="120%" height="220%"><feGaussianBlur stdDeviation="4"/></filter>
   </defs>
   <style>
-    .ft{font-family:"JetBrains Mono","SF Mono","Cascadia Code","Fira Code",Consolas,Menlo,"DejaVu Sans Mono",monospace;font-size:13px;letter-spacing:3px;fill:#94a3b8;text-anchor:middle}
+    .ft{font-family:"JetBrains Mono","SF Mono","Cascadia Code",monospace;font-size:13px;letter-spacing:3px;fill:#94A3B8;text-anchor:middle}
     .run{animation:run 4s ease-in-out infinite}
     @keyframes run{0%,100%{stroke-dashoffset:170}50%{stroke-dashoffset:-830}}
-    @media (prefers-reduced-motion:reduce){*{animation:none!important}}
+    @media(prefers-reduced-motion:reduce){*{animation:none!important}}
   </style>
-  <path d="M0 64H250q8 -12 16 0h18l6 8l10 -56l10 70l6 -22h20q14 -20 28 0H640q8 -12 16 0h18l6 8l10 -56l10 70l6 -22h20q14 -20 28 0H1000" pathLength="1000" fill="none" stroke="url(#g)" stroke-opacity=".28" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-  <path class="run" d="M0 64H250q8 -12 16 0h18l6 8l10 -56l10 70l6 -22h20q14 -20 28 0H640q8 -12 16 0h18l6 8l10 -56l10 70l6 -22h20q14 -20 28 0H1000" pathLength="1000" fill="none" stroke="url(#g)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="170 830" stroke-dashoffset="170" filter="url(#blur)" opacity=".7"/>
+  <path d="M0 64H250q8 -12 16 0h18l6 8l10 -56l10 70l6 -22h20q14 -20 28 0H640q8 -12 16 0h18l6 8l10 -56l10 70l6 -22h20q14 -20 28 0H1000" pathLength="1000" fill="none" stroke="url(#g)" stroke-opacity=".25" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path class="run" d="M0 64H250q8 -12 16 0h18l6 8l10 -56l10 70l6 -22h20q14 -20 28 0H640q8 -12 16 0h18l6 8l10 -56l10 70l6 -22h20q14 -20 28 0H1000" pathLength="1000" fill="none" stroke="url(#g)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="170 830" stroke-dashoffset="170" filter="url(#blur)" opacity=".65"/>
   <path class="run" d="M0 64H250q8 -12 16 0h18l6 8l10 -56l10 70l6 -22h20q14 -20 28 0H640q8 -12 16 0h18l6 8l10 -56l10 70l6 -22h20q14 -20 28 0H1000" pathLength="1000" fill="none" stroke="url(#g)" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="170 830" stroke-dashoffset="170"/>
-  <text class="ft" x="500" y="112">thanks for stopping by</text>
+  <text class="ft" x="500" y="112">thanks for stopping by ✦ @Dastgir-Siddiq</text>
 </svg>

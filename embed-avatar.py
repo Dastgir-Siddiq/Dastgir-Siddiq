@@ -7,8 +7,7 @@ itself as a base64 data URI. Run this once from the repo root:
     python3 embed-avatar.py                 # downloads your GitHub avatar
     python3 embed-avatar.py photo.png       # or use a local image / other URL
 
-Re-run any time you change your photo. Safe to run repeatedly. You can delete
-this script afterwards.
+Re-run any time you change your photo. Safe to run repeatedly.
 """
 import base64, os, re, sys, urllib.request
 
@@ -32,15 +31,15 @@ def mime(b):
 
 data = load(sys.argv[1] if len(sys.argv) > 1 else DEFAULT)
 uri = f"data:{mime(data)};base64,{base64.b64encode(data).decode()}"
-slot = ('<g id="avatar"><image href="%s" x="-53" y="-53" width="106" height="106" '
-        'preserveAspectRatio="xMidYMid slice" clip-path="url(#av)"/></g>' % uri)
+slot = ('<g id="avatar"><image href="%s" x="-54" y="-54" width="108" height="108" '
+        'preserveAspectRatio="xMidYMid slice" clip-path="url(#sunClip)"/></g>' % uri)
 
 for path in TARGETS:
     if not os.path.exists(path):
-        sys.exit(f"File {path} not found. Please run this script from the repository root.")
+        sys.exit(f"File {path} not found. Run from the repo root.")
     svg = open(path, encoding="utf-8").read()
     new, n = re.subn(r'<g id="avatar">.*?</g>', lambda m: slot, svg, flags=re.S)
     if n != 1:
-        sys.exit(f"Could not find the avatar slot in {path}. Run from the repo root.")
+        sys.exit(f"Could not find the avatar slot in {path}.")
     open(path, "w", encoding="utf-8").write(new)
     print(f"embedded photo into {path} ({len(data)//1024} KB)")
