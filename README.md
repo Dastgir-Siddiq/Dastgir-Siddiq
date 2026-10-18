@@ -13,13 +13,6 @@
   <img alt="Dastgir Siddiq · @Dastgir-Siddiq · Solar System Profile" src="./assets/header-light.svg" width="100%">
 </picture>
 
-<!-- ─── Skill & Transit Pipeline Flow ─── -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/flow-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/flow-light.svg">
-  <img alt="Android → Recovery → ROMs → Tools → Open Source" src="./assets/flow-light.svg" width="100%">
-</picture>
-
 <!-- ─── Featured Planetary Projects Section Header ─── -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/section-projects-dark.svg">
