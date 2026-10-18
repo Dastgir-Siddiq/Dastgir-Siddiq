@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 150" width="400" height="150" role="img" aria-label="Media Organizer: Automated organizer for movies, TV series, and subtitles with recursive cleanup.">
+  <title>Media Organizer</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#131a2b"/><stop offset="1" stop-color="#0f1420"/></linearGradient>
+    <radialGradient id="gl" cx="1" cy="0" r=".9"><stop offset="0" stop-color="#BD93F9" stop-opacity=".18"/><stop offset="1" stop-color="#BD93F9" stop-opacity="0"/></radialGradient>
+    <clipPath id="c"><rect width="400" height="150" rx="16"/></clipPath>
+  </defs>
+  <style>
+    .t{font-family:"SF Pro Display","Segoe UI Variable Display","Segoe UI","Inter","Helvetica Neue",Arial,system-ui,sans-serif;font-weight:700;font-size:21px;fill:#e6edf3}
+    .d{font-family:"SF Pro Display","Segoe UI Variable Display","Segoe UI","Inter","Helvetica Neue",Arial,system-ui,sans-serif;font-size:15px;fill:#9aa7b8}
+    .halo{fill:none;stroke:#BD93F9;stroke-width:1.5;opacity:0;transform-box:fill-box;transform-origin:center;animation:halo 3.6s ease-out -0.9s infinite}
+    @keyframes halo{0%{transform:scale(1);opacity:.55}100%{transform:scale(1.9);opacity:0}}
+    @media (prefers-reduced-motion:reduce){*{animation:none!important}}
+  </style>
+  <g clip-path="url(#c)">
+    <rect width="400" height="150" fill="url(#bg)"/>
+    <rect width="400" height="150" fill="url(#gl)"/>
+    <circle class="halo" cx="48" cy="48" r="24"/>
+    <rect x="24" y="24" width="48" height="48" rx="14" fill="#BD93F9" fill-opacity=".12" stroke="#BD93F9" stroke-opacity=".4" stroke-width="1.5"/>
+    <g transform="translate(36 36) scale(1.0)" fill="none" stroke="#BD93F9" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M4 20h16a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.93a2 2 0 0 1-1.66-.9l-.82-1.2A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13c0 1.1.9 2 2 2Z"/>
+      <polygon points="10 11 15 14 10 17 10 11"/>
+    </g>
+    <text class="t" x="88" y="55">Media Organizer</text>
+    <text class="d" x="24" y="107">Automated organizer for movies, TV series,</text>
+    <text class="d" x="24" y="129">and subtitles with recursive cleanup.</text>
+  </g>
+  <rect x=".75" y=".75" width="398.5" height="148.5" rx="15.5" fill="none" stroke="#2b3650" stroke-width="1.5"/>
+</svg>

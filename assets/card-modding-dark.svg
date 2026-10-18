@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 150" width="400" height="150" role="img" aria-label="ROM &amp; Framework Modding: Android framework patcher, signature bypass, and custom ROM optimization utilities.">
+  <title>ROM &amp; Framework Modding</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#131a2b"/><stop offset="1" stop-color="#0f1420"/></linearGradient>
+    <radialGradient id="gl" cx="1" cy="0" r=".9"><stop offset="0" stop-color="#50FA7B" stop-opacity=".18"/><stop offset="1" stop-color="#50FA7B" stop-opacity="0"/></radialGradient>
+    <clipPath id="c"><rect width="400" height="150" rx="16"/></clipPath>
+  </defs>
+  <style>
+    .t{font-family:"SF Pro Display","Segoe UI Variable Display","Segoe UI","Inter","Helvetica Neue",Arial,system-ui,sans-serif;font-weight:700;font-size:20px;fill:#e6edf3}
+    .d{font-family:"SF Pro Display","Segoe UI Variable Display","Segoe UI","Inter","Helvetica Neue",Arial,system-ui,sans-serif;font-size:15px;fill:#9aa7b8}
+    .halo{fill:none;stroke:#50FA7B;stroke-width:1.5;opacity:0;transform-box:fill-box;transform-origin:center;animation:halo 3.6s ease-out -2.7s infinite}
+    @keyframes halo{0%{transform:scale(1);opacity:.55}100%{transform:scale(1.9);opacity:0}}
+    @media (prefers-reduced-motion:reduce){*{animation:none!important}}
+  </style>
+  <g clip-path="url(#c)">
+    <rect width="400" height="150" fill="url(#bg)"/>
+    <rect width="400" height="150" fill="url(#gl)"/>
+    <circle class="halo" cx="48" cy="48" r="24"/>
+    <rect x="24" y="24" width="48" height="48" rx="14" fill="#50FA7B" fill-opacity=".12" stroke="#50FA7B" stroke-opacity=".4" stroke-width="1.5"/>
+    <g transform="translate(36 36) scale(1.0)" fill="none" stroke="#50FA7B" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round">
+      <rect x="4" y="4" width="16" height="16" rx="2"/>
+      <rect x="9" y="9" width="6" height="6" rx="1"/>
+      <path d="M9 1v3M15 1v3M9 20v3M15 20v3M1 9h3M1 15h3M20 9h3M20 15h3"/>
+    </g>
+    <text class="t" x="88" y="55">ROM &amp; Frameworks</text>
+    <text class="d" x="24" y="107">Android framework patcher, signature bypass,</text>
+    <text class="d" x="24" y="129">and custom ROM optimization utilities.</text>
+  </g>
+  <rect x=".75" y=".75" width="398.5" height="148.5" rx="15.5" fill="none" stroke="#2b3650" stroke-width="1.5"/>
+</svg>
